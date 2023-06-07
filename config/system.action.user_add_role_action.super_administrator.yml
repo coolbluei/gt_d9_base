@@ -1,0 +1,14 @@
+uuid: 01f74b5c-bc36-47fc-9ba1-2bf80eba1bbf
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.super_administrator
+  module:
+    - user
+id: user_add_role_action.super_administrator
+label: 'Add the Super Administrator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: super_administrator
