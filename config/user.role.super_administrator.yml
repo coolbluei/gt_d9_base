@@ -1,8 +1,11 @@
-uuid: 0a3af655-0312-4268-975d-effcc5bb35c9
+uuid: fac6f38f-ea4d-4ed7-9052-2ceb9ae717aa
 langcode: en
 status: true
 dependencies:
   config:
+    - filter.format.minimal_html
+    - filter.format.text_editor_advanced
+    - filter.format.text_editor_basic
     - node.type.page
   module:
     - action

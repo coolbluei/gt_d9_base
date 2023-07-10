@@ -45,6 +45,7 @@ module:
   menu_ui: 0
   migrate: 0
   migrate_drupal: 0
+  migrate_drupal_ui: 0
   migrate_plus: 0
   migrate_upgrade: 0
   mysql: 0
@@ -66,6 +67,8 @@ module:
   tour: 0
   twig_field_value: 0
   twig_tweak: 0
+  update: 0
+  upgrade_status: 0
   user: 0
   video_embed_field: 0
   views_accordion: 0

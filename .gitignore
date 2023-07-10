@@ -36,3 +36,4 @@
 db/
 *.zip
 web/legacy/
+legacy/

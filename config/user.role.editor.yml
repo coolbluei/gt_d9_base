@@ -3,10 +3,13 @@ langcode: en
 status: false
 dependencies:
   config:
+    - filter.format.minimal_html
+    - filter.format.text_editor_basic
     - node.type.page
   module:
     - block
     - contextual
+    - filter
     - node
     - path
     - system

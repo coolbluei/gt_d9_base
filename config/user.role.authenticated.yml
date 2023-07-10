@@ -2,7 +2,10 @@ uuid: aca4ca2c-2602-49cb-859d-ee3a16ecba56
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.minimal_html
   module:
+    - filter
     - node
     - system
 _core:
